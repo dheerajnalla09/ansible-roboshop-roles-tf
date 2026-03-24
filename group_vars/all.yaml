@@ -1,0 +1,12 @@
+ansible_user: ec2-user
+ansible_password: DevOps321
+MONGODB_HOST: mongodb-{{ env }}.dheerajn.online
+REDIS_HOST: redis-{{ env }}.dheerajn.online
+MYSQL_HOST: mysql-{{ env }}.dheerajn.online
+RABBITMQ_HOST: rabbitmq-{{ env }}.dheerajn.online
+CATALOGUE_HOST: catalogue.backend-alb-{{ env }}.dheerajn.online
+USER_HOST: user.backend-alb-{{ env }}.dheerajn.online
+CART_HOST: cart.backend-alb-{{ env }}.dheerajn.online
+SHIPPING_HOST: shipping.backend-alb-{{ env }}.dheerajn.online
+PAYMENT_HOST: payment.backend-alb-{{ env }}.dheerajn.online
+app_version: v3
